@@ -1,0 +1,16 @@
+.App {
+  padding: 20px;
+}
+
+.userTitle {
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 20.83px;
+}
+
+.subtitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31.25px;
+  margin-bottom: 15px;
+}

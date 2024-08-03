@@ -1,0 +1,13 @@
+.productsTitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.44px;
+}
+
+.container {
+  margin-top: 30px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 30px;
+}

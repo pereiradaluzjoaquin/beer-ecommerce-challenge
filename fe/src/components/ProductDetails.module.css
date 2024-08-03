@@ -1,0 +1,127 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.detailTitle {
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 23.44px;
+}
+
+.icon {
+  width: 24px;
+  height: 24px;
+}
+
+.image {
+  width: 240px;
+  height: 240px;
+  margin-bottom: 20px;
+}
+
+.brandTitle {
+  font-weight: 700;
+  font-size: 24px;
+  line-height: 31.25px;
+}
+
+.price {
+  color: rgba(255, 159, 36, 1);
+}
+
+.brandPrice {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+}
+
+.descriptionTitle {
+  text-align: left;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20.83px;
+  width: 100%;
+  margin-bottom: 10px;
+}
+
+.originStock {
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  width: 100%;
+  margin-bottom: 20px;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18.23px;
+}
+
+.cartButtons {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  margin-top: 30px;
+}
+
+.addToBag {
+  width: 54px;
+  height: 54px;
+  border-radius: 12px;
+  border: 0.8px solid rgba(255, 159, 36, 1);
+  background-color: white;
+}
+
+.addToCart {
+  width: 247px;
+  height: 54px;
+  border-radius: 12px;
+  border: none;
+  background-color: rgba(255, 159, 36, 1);
+  color: white;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 16px;
+}
+
+.sizes {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+  width: 100%;
+}
+
+.skuName {
+  border-radius: 15.5px;
+  border: 1px solid rgba(150, 150, 150, 1);
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 18.23px;
+  padding: 5px 10px;
+}
+
+.skuName:hover {
+  cursor: pointer;
+  color: rgba(255, 159, 36, 1);
+  border: 1px solid rgba(255, 159, 36, 1);
+}
+
+.activeSku {
+  color: rgba(255, 159, 36, 1);
+  border: 1px solid rgba(255, 159, 36, 1);
+}
+
+.description {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  margin-bottom: 10px;
+}
